@@ -67,36 +67,12 @@ class Database:
  
         CONN.commit()
 
+db = Database()
 
+db.drop_tables()
+print( "Dropped Tables" )
 
+print( "Creating Tables" )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# db = Database()
-
-# db.drop_tables()
-# print( "Dropped Tables" )
-
-# print( "Creating Tables" )
-
-# db.create_tables()
-# print( "Tables Created" )
+db.create_tables()
+print( "Tables Created" )
