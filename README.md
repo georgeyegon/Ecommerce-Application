@@ -1,4 +1,4 @@
-## This project involves Ecommerce-_CLI-App
+## This project involves Ecommerce Application
 
 ## To Run this application, 
 1. go to your terminal and type; 
