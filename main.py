@@ -140,6 +140,10 @@ def product_operations():
         
                             created_product_id = product.create_product( category, name, price, quantity)
                             print(f"\nProduct {created_product_id} created successfully!")
+                            proceed = input("Do you want to add another product? (y/n): ").lower()
+                            if proceed != "y":
+                                break  
+                        break
                     else:
                         print("\nLogin Failed!")
 
@@ -177,7 +181,10 @@ def product_operations():
 
                             updated_product = product.update_product_by_id(product_id, category, name, price, quantity)
                             print(f"\nProduct {updated_product} updated successfully!")
-
+                            proceed = input("Do you want to add another product? (y/n): ").lower()
+                            if proceed != "y":
+                                break  
+                        break
                     else:
                         print("\nLogin Failed!")
 
