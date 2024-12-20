@@ -30,6 +30,8 @@
 - View order history
 
 ## Admin Features
+-Admin username: abc
+-Admin Password: xyz
 - Add new products to platform
 - Edit products
 - Remove products
